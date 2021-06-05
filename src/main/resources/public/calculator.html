@@ -1,0 +1,87 @@
+<head>
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./calculator.js"></script>
+</head>
+
+
+<body>
+    <div class="background">
+        <div class="background1">
+            <div class="background2">
+                <strong>Grade Calculator</strong>
+                <p>
+                    <div class="background3">
+                        <h4 style="color:#C70039 ">Activities</h4>
+                        <p>
+                            Give grade to the numeric activities:
+                        </p>
+                        <table class="table1">
+                            <tr>
+                                <th>Name</th>
+                                <th>Short Name</th>
+                                <th>Weight</th>
+                                <th>Grade</th>
+                                <th>Percent</th>
+                                <tr>
+                                    <tr>
+                                        <td>Activity1</td>
+                                        <td>A1</td>
+                                        <td><input id="a1_w" type="number"></td>
+                                        <td>
+                                            <input id="a1_g1" type="number">/
+                                            <p>
+                                                <p>
+                                                    <input id="a1_g2" type="number">
+                                        </td>
+                                        <td id="p1"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Activity2</td>
+                                        <td>A2</td>
+                                        <td><input id="a2_w" type="number"></td>
+                                        <td>
+                                            <input id="a2_g1" type="number">/
+                                            <p></p>
+                                            <input id="a2_g2" type="number">
+                                        </td>
+                                        <td id="p2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Activity3</td>
+                                        <td>A3</td>
+                                        <td><input id="a3_w" type="number"></td>
+                                        <td>
+                                            <input id="a3_g1" type="number">/
+                                            <p></p>
+                                            <input id="a3_g2" type="number">
+                                        </td>
+                                        <td id="p3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Activity4</td>
+                                        <td>A4</td>
+                                        <td><input id="a4_w" type="number"></td>
+                                        <td>
+                                            <input id="a4_g1" type="number">/
+                                            <p></p>
+                                            <input id="a4_g2" type="number">
+                                        </td>
+                                        <td id="p4"></td>
+                                    </tr>
+                        </table>
+                        <p id="r1" style="color:#C70039 "><strong>Result</strong></p>
+                        <br>
+                        <p id="r2" style="color:#C70039">
+                            <strong>Letter Grade</strong></p>
+
+                        <p>
+                            <button onclick="mean()" style="color:white;background-color:#D12621 ;">MEAN</button> &nbsp;
+                            <button onclick="weighted()" style="color:white;background-color:#D12621 ;">WEIGHTED</button>
+                        </p>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <body>
